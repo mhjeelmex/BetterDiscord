@@ -66,11 +66,10 @@ div[data-ref-id="guildsnav"]::-webkit-scrollbar-track {
 }
 
 div[data-ref-id="guildsnav"]::-webkit-scrollbar {
-    height: 5px;
+    width: .75rem;
 }
 
 div[data-ref-id="guildsnav"]::-webkit-scrollbar-thumb {
-    background-color: transparent;
     border-radius: 2px;
 }
 
