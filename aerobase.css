@@ -396,19 +396,19 @@ body, .preview-2nSL_2, #user-settings.layer-3QrUeG {
         background: transparent !important;
 }
 
-.headerXbox-3G-4PF:before, .topSectionXbox-3fWLjS:before {
+.headerXbox-3G-4PF, .headerXbox-3G-4PF:before, .topSectionXbox-3fWLjS:before {
         background: center / cover no-repeat var(--Xbox)!important;
 }
 
-.headerPlaying-j0WQBV:before, .topSectionPlaying-1J5E4n:before {
+.headerPlaying-j0WQBV, .headerPlaying-j0WQBV:before, .topSectionPlaying-1J5E4n:before {
         background: center / cover no-repeat var(--Playing)!important;
 }
 
-.headerStreaming-2FjmGz:before, .topSectionStreaming-1Tpf5X:before {
+.headerStreaming-2FjmGz, .headerStreaming-2FjmGz:before, .topSectionStreaming-1Tpf5X:before {
         background: center / cover no-repeat var(--Streaming)!important;
 }
 
-.headerSpotify-zpWxgT:before, .topSectionSpotify-1lI0-P:before {
+.headerSpotify-zpWxgT, .headerSpotify-zpWxgT:before, .topSectionSpotify-1lI0-P:before {
         background: center / cover no-repeat var(--Spotify)!important;
 }
 
@@ -3088,7 +3088,7 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
 }
 
 .activity-11LB_k {
-        background: linear-gradient(180deg, var(--darkgrey5), transparent);
+        background: linear-gradient(180deg, rgba(15, 15, 27, 0.25), rgba(15, 15, 27, 0.1));
         border-radius: 5px 5px 0 0;
         padding: 10px;
 }
@@ -3318,3 +3318,7 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
 .sidebar-2K8pFh .scroller-1JbKMe::-webkit-scrollbar, .sidebar-2K8pFh .scroller-2wx7Hm::-webkit-scrollbar, .members-1998pB::-webkit-scrollbar {
         width: 0;
 }
+
+.topSectionSpotify-1lI0-P .listeningActionsProfile-1fYwru button:nth-child(2):after {
+        content: var(--ListenAlong);
+    }
