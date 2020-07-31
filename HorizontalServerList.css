@@ -70,7 +70,7 @@ div[data-ref-id="guildsnav"]::-webkit-scrollbar {
 }
 
 div[data-ref-id="guildsnav"]::-webkit-scrollbar-thumb {
-    border-radius: 2px;
+    border-radius: 2.5px 0 0 2.5px;
 }
 
 div[data-ref-id="guildsnav"]>div:first-child {
