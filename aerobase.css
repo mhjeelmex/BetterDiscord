@@ -2863,7 +2863,7 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         top: 0;
         left: 0;
         right: 0;
-        background: center / cover no-repeat var(--background)! important;
+        background: center / cover no-repeat url("https://goldenlys.github.io/ThemeGen/img/SpaceSunrise.jpg") !important;
 }
 
 .container-PNkimc[aria-label*="ᴘᴜʀᴘʟᴇ Community"] .header-2o-2hj:after {
