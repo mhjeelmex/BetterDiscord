@@ -106,6 +106,7 @@
 
 ::-webkit-input-placeholder, ::placeholder, body, button, input, select, textarea {
         font-family: var(--font)!important;
+        line-height: 1.15;
         color: white!important;
 }
 
@@ -3123,7 +3124,23 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         line-height: 0;
 }
 
-.emptyChannelIcon-cc932w+.header-3uLluP:before {
+.scrollerInner-2ircaP .container-3zqIcM {
+        padding: 0;
+}
+
+.scrollerInner-2ircaP .inner-3GZ54g {
+        max-width: 100%;
+}
+
+.scrollerInner-2ircaP .inner-3GZ54g+.emptyMessage-3ggYEG, .titleName-3-Lp3Z p, .navigationDescription-1Evclp {
+        display: none
+}
+
+.titleName-3-Lp3Z+.subtitle-2UIIw0 {
+        margin: 0;
+}
+
+.titleName-3-Lp3Z:after, .emptyChannelIcon-cc932w+.header-3uLluP:before {
         margin-left: 65px;
         content: var(--WelcomeMessage);
         line-height: 26px;
@@ -3321,4 +3338,16 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
 
 .topSectionSpotify-1lI0-P .listeningActionsProfile-1fYwru button:nth-child(2):after {
         content: var(--ListenAlong);
-    }
+}
+
+.group-spacing-16 .groupStart-23k01U {
+        margin-top: .5rem;
+}
+
+#guild-header-popout.styleFixed-sX-yHV {
+        width: 265px;
+}
+
+.layer-v9HyYc[style*="left: 23px"] {
+        left: 0!important;
+}
