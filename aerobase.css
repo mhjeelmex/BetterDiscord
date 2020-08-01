@@ -134,6 +134,7 @@ body, .preview-2nSL_2, #user-settings.layer-3QrUeG {
 }
 
 .container-3Mxszk, .chat-3bRxxu, .peopleList-3c4jOR, .container-1D34oG {
+        border-radius: 5px 0 0 0;
         background: var(--ChatBox)!important;
 }
 
@@ -1517,7 +1518,6 @@ button[style="font-family: glue1-spoticon;"] {
 }
 
 .rolesList-22qj2L .actionButton-VzECiy {
-        padding-top: 7px!important;
         width: 100%;
         border: none;
         padding: .5em;
@@ -1847,7 +1847,7 @@ a.channel-2QD9_O {
 .name-3YKhmS, .tierTooltipTitle-1EIbL_ {
         font-weight: bold;
         text-align: center;
-        text-shadow: 0 0 13px;
+        text-shadow: 0 0 5px;
         font-size: 20px;
         line-height: 48px;
 }
@@ -2288,7 +2288,7 @@ button[role*="switch"]:after {
         background: var(--Online) !important;
 }
 
-.item-PXvHYJ[style*="color: rgb(240, 71, 71)"], .strikethrough-1n4ekb, .strikethrough-3Wiitd {
+.colorDanger-2qLCe1, .colorDanger-2qLCe1 .checkbox-3s5GYZ, .colorDanger-2qLCe1 .radioSelection-1HmrQS, .item-PXvHYJ[style*="color: rgb(240, 71, 71)"], .strikethrough-1n4ekb, .strikethrough-3Wiitd {
         color: var(--Unavailable)!important;
 }
 
@@ -2424,7 +2424,7 @@ button[role*="switch"]:after {
 
 #bd-pub-button {
         border-radius: .25em;
-        background: url(https://goldenlys.github.io/ThemeGen/img/public.png);
+        background: url("https://goldenlys.github.io/ThemeGen/img/public.png");
         color: #ffffff;
         font-size: 12px;
         background-size: 90% 90%;
@@ -2449,7 +2449,7 @@ button[role*="switch"]:after {
         content: "";
         width: 25px;
         height: 25px;
-        content: url(https://goldenlys.github.io/ThemeGen/img/view.png);
+        content: url("https://goldenlys.github.io/ThemeGen/img/view.png");
 }
 
 .lookFilled-1h1y05.select-1Pkeg4, .input-cIJ7To {
@@ -3322,7 +3322,7 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         left: 2rem;
         width: 6.25rem;
         height: 1.5rem;
-        background: center / contain no-repeat url(https://goldenlys.github.io/ThemeGen/img/usertools.png);
+        background: center / contain no-repeat url("https://goldenlys.github.io/ThemeGen/img/usertools.png");
 }
 
 .modal-3c3bKg .listRow-hutiT_ {
@@ -3357,4 +3357,35 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
 
 .message-2qnXI6 {
         padding-right: 1rem!important;
+}
+
+.container-PNkimc[aria-label="Test Server"] .container-2Rl01u {
+        min-height: 48px;
+}
+
+.container-PNkimc[aria-label="Test Server"] .container-2Rl01u h1 {
+        line-height: 1.25;
+        align-self: flex-start;
+}
+
+.container-PNkimc[aria-label="Test Server"] .container-2Rl01u h1::after {
+        content: var(--title) " v" var(--version);
+        display: block;
+        font-size: 1rem;
+        font-weight: initial;
+        text-shadow: none;
+        line-height: 1.15;
+}
+
+.container-PNkimc[aria-label="Test Server"] .container-2Rl01u::after {
+        content: "";
+        position: absolute;
+        border-radius: 5px;
+        text-align: center;
+        height: 20px;
+        width: 20px;
+        top: 15px;
+        left: 6.5px;
+        z-index: 1;
+        background: center / cover no-repeat url("https://goldenlys.github.io/ThemeGen/img/PURPLE.gif") !important;
 }
