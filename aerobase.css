@@ -18,7 +18,6 @@
         --grey5: rgba(77, 70, 85, 0.5);
         --darkgrey: rgb(18, 18, 18);
         --darkgrey5: rgba(14, 14, 14, 0.75);
-        --version: '2.3';
         --time: 5s;
         --TitleBG: var(--darkgrey5);
         --Sidebar: var(--darkgrey5);
@@ -49,6 +48,7 @@
         --Folders: '📁';
         --FoldersOpen: '💠';
         --ServerSize: 45px;
+        --version: '2.3';
 }
 
 .theme-light, .theme-dark {
@@ -62,11 +62,11 @@
         --interactive-hover: white;
         --interactive-active: white;
         --interactive-muted: var(--grey);
-        --background-primary: var(--darkgrey);
-        --background-secondary: var(--darkgrey);
-        --background-secondary-alt: var(--grey);
-        --background-tertiary: var(--grey);
-        --background-accent: var(--grey);
+        --background-primary: transparent;
+        --background-secondary: transparent;
+        --background-secondary-alt: transparent;
+        --background-tertiary: transparent;
+        --background-accent: transparent;
         --background-floating: var(--darkgrey5);
         --background-modifier-hover: rgba(79, 84, 92, 0.16);
         --background-modifier-active: var(--darkgrey5);
@@ -104,7 +104,7 @@
         background-color: var(--grey);
 }
 
-::-webkit-input-placeholder, ::placeholder, body, button, input, select, textarea {
+::-webkit-input-placeholder, ::placeholder, body, button, input, code, select, textarea {
         font-family: var(--font)!important;
         line-height: 1.15;
         color: white!important;
@@ -1067,10 +1067,6 @@ rect[fill="rgba(240, 71, 71, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-st
         border-radius: .25em!important;
 }
 
-.avatar-1BDn8e {
-        border-radius: .5em
-}
-
 .theme-dark .tooltipRed-8-9NeP, .theme-light .tooltipRed-8-9NeP {
         color: white;
         background-color: var(--Unavailable)
@@ -1089,8 +1085,8 @@ rect[fill="rgba(240, 71, 71, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-st
         -webkit-mask: none !important;
 }
 
-.icon-27yU2q, .avatar-VxgULZ, .avatarHint-1qgaV3, .avatar-3elDyV, .avatarDefault-35WC3R, .avatarSpeaking-1wJCNq, .container-2td-dC *, .button-OhfaWu.wrapper-1BJsBx, .iconInactive-98JN5i, .avatarWrapperNormal-3wFMbf, .avatarUploaderInner-3UNxY3, .systemPad-3UxEGl>.listItem-2P_4kh:first-child .svg-1X37T1 {
-        border-radius: .5em !important;
+.avatar-1BDn8e, .icon-27yU2q, .avatar-VxgULZ, .avatarHint-1qgaV3, .avatar-3elDyV, .avatarDefault-35WC3R, .avatarSpeaking-1wJCNq, .container-2td-dC *, .button-OhfaWu.wrapper-1BJsBx, .iconInactive-98JN5i, .avatarWrapperNormal-3wFMbf, .avatarUploaderInner-3UNxY3, .systemPad-3UxEGl>.listItem-2P_4kh:first-child .svg-1X37T1 {
+        border-radius: 5px !important;
 }
 
 #app-mount>svg>mask[id^="svg-mask-avatar-"]>circle[fill="white"] {
@@ -1237,8 +1233,8 @@ svg.mask-1l8v16>mask>circle[fill="white"] {
 }
 
 .embedFull-2tM8-- {
-        max-width: unset;
-        border-left: 4px solid var(--grey);
+        max-width: unset !important;
+        border-left: 4px solid var(--Primary);
         background: var(--darkgrey5);
 }
 
@@ -1781,10 +1777,6 @@ button[style="font-family: glue1-spoticon;"] {
         margin-bottom: 0;
 }
 
-.membersWrap-2h-GB4 {
-        margin-bottom: 60px;
-}
-
 .connectedAccountName-f8AEe2 {
         font-size: 15px;
         line-height: 16px;
@@ -1881,8 +1873,13 @@ a.channel-2QD9_O {
         text-shadow: 0 0 2px black;
 }
 
-.expandedFolderBackground-2sPsd-, .item-2hkk8m {
-        border-radius: .25em;
+.expandedFolderBackground-2sPsd- {
+        border-radius: 5px;
+}
+
+.pill-31IEus .item-2hkk8m {
+        border-radius: 5px;
+        box-shadow: 2px 0px 5px 0 var(--Primary);
 }
 
 .expandedFolderBackground-2sPsd- {
@@ -2163,7 +2160,7 @@ div[data-ref-id="guildsnav"]>.listItem-2P_4kh, div[data-ref-id="guildsnav"]>.wra
 }
 
 .tutorialContainer-1v44GL, .tutorialContainer-SGrQ1h, .tutorialContainer-SGrQ1h+.listItem-2P_4kh, .tutorialContainer-SGrQ1h+.listItem-2P_4kh+.listItem-2P_4kh {
-        margin: 10px 0 0 5px !important;
+        margin: 10px 0 0 10px !important;
         height: var(--ServerSize);
 }
 
@@ -2398,7 +2395,7 @@ button[role*="switch"]:after {
 }
 
 .scrollerSpacer-1Rp0XE {
-        height: 20px;
+        height: 1rem;
 }
 
 .attachButton-2WznTc {
@@ -3350,4 +3347,14 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
 
 .layer-v9HyYc[style*="left: 23px"] {
         left: 0!important;
+}
+
+.markup-2BOw-j pre {
+        border-radius: 5px;
+        padding: 0;
+        margin: 0;
+}
+
+.message-2qnXI6 {
+        padding-right: 1rem!important;
 }
