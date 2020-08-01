@@ -3,7 +3,7 @@
 .base-3dtUhz {
     z-index: 1;
     position: absolute;
-    top: calc(25px + var(--ServerSize));
+    top: calc(25px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns))!important;
     left: 0;
 }
 
