@@ -669,7 +669,7 @@ body, .preview-2nSL_2, #user-settings.layer-3QrUeG {
 .divider-JfaTT5 {
         background: var(--grey);
         border: none!important;
-        margin: 0 1rem !important;
+        margin: .5rem 1rem 0 1rem !important;
         border-radius: 5px;
         padding-bottom: 1.35rem;
 }
@@ -3359,16 +3359,16 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         padding-right: 1rem!important;
 }
 
-.container-PNkimc[aria-label="Test Server"] .container-2Rl01u {
+.container-PNkimc[aria-label*="Test Server"] .container-2Rl01u {
         min-height: 48px;
 }
 
-.container-PNkimc[aria-label="Test Server"] .container-2Rl01u h1 {
+.container-PNkimc[aria-label*="Test Server"] .container-2Rl01u h1 {
         line-height: 1.25;
         align-self: flex-start;
 }
 
-.container-PNkimc[aria-label="Test Server"] .container-2Rl01u h1::after {
+.container-PNkimc[aria-label*="Test Server"] .container-2Rl01u h1::after {
         content: var(--title) " v" var(--version);
         display: block;
         font-size: 1rem;
@@ -3377,7 +3377,7 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         line-height: 1.15;
 }
 
-.container-PNkimc[aria-label="Test Server"] .container-2Rl01u::after {
+.container-PNkimc[aria-label*="Test Server"] .container-2Rl01u::after {
         content: "";
         position: absolute;
         border-radius: 5px;
@@ -3388,4 +3388,23 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
         left: 6.5px;
         z-index: 1;
         background: center / cover no-repeat url("https://goldenlys.github.io/ThemeGen/img/PURPLE.gif") !important;
+}
+
+.wrapper-35wsBm.userSelectNone-Iy6XEP {
+        width: 100%;
+        max-width: 35vw;
+}
+
+.inviteDestination-1fAcY7 {
+        margin-bottom: .5rem;
+}
+
+.guildIconImage-3qTk45.iconSizeLarge-161qtT {
+        margin-top: 5px;
+        width: 60px;
+        height: 60px;
+}
+
+.guildInfo-1STtYi+.button-3To2tQ {
+        margin-top: 5px;
 }
