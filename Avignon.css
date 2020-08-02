@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Avignon PS Pro';
+    src: url('https://goldenlys.github.io/EasyWebMaker/DATA/avignon-ps-pro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avignon PS Pro';
+    src: url('https://goldenlys.github.io/EasyWebMaker/DATA/avignon-ps-pro-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avignon PS Pro DemiBold';
+    src: url('https://goldenlys.github.io/EasyWebMaker/DATA/avignon-ps-pro-demibold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avignon PS Pro DemiBold Italic';
+    src: url('https://goldenlys.github.io/EasyWebMaker/DATA/avignon-ps-pro-demibolditalic-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
