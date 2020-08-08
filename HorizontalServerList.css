@@ -171,7 +171,7 @@ div[data-ref-id="guildsnav"]>.wrapper-21YSNc {
 #app-mount [data-ref-id=guildsnav] {
 	display: flex;
 	flex-wrap: wrap;
-	height: calc(10px + 10px* var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
+	height: calc(10px + 5px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
 	overflow-y: auto;
 	order: 3;
 	width: 100%;
