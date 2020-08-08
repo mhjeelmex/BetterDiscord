@@ -118,6 +118,7 @@
 	}
 
 	to {
-		background: var(--C1) !important box-shadow: 0 0 5px var(--C1) !important
+		background: var(--C1) !important;
+		box-shadow: 0 0 5px var(--C1) !important
 	}
 }
