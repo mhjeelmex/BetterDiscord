@@ -9,10 +9,8 @@
 * @authorLink https://github.com/GoldenLys
 */
 
-@import url("https://goldenlys.github.io/BetterDiscord-Elysia/aerobase.css");
-/* DO NOT REMOVE THIS LINE */
-@import url("https://goldenlys.github.io/BetterDiscord-Elysia/RGB/2.css");
-/* DO NOT REMOVE THIS LINE */
+@import url("https://goldenlys.github.io/BetterDiscord-Elysia/aerobase.css"); /* DO NOT REMOVE THIS LINE */
+@import url("https://goldenlys.github.io/BetterDiscord-Elysia/RGB/2.css"); /* DO NOT REMOVE THIS LINE */
 
 /*  PLUGINS (optional)  */
 @import url("https://fonts.googleapis.com/css?family=Quicksand&amp;display=swap");
