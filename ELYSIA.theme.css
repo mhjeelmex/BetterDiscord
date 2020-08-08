@@ -24,8 +24,8 @@
         --font: "Quicksand", sans-serif;
         --logo: url("https://goldenlys.github.io/ThemeGen/img/ELYSIA.gif");
         --background: url("https://goldenlys.github.io/ThemeGen/img/bg.jpg");
-        --Primary: rgb(130, 0, 216);
-        --animation: var(--Primary), rgb(0, 225, 255);
+	--C1: rgb(130, 0, 216);
+	--C2: rgb(0, 225, 255);
         --time: 5s;
         --ServerSize: 45px;
         
@@ -51,6 +51,7 @@
         --Sidebar: var(--darkgrey5);
         --SendMessage: var(--darkgrey);
         --HoverMessage: var(--darkgrey5);
+        --Highlighted: var(--grey5);
 
         /* CUSTOM TEXTS */
         --JoinUs: "Hey! Wanna have some fun.. Join US !";
