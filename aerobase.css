@@ -3414,3 +3414,25 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
 .guildInfo-1STtYi+.button-3To2tQ {
 	margin-top: 5px;
 }
+
+.wrapper-1ucjTd.modeLocked-SZJhTy:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	opacity: .25;
+	background-color: var(--Unavailable);
+}
+
+.wrapper-1ucjTd.modeSelected-1zApJ_:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	opacity: .25;
+	background-color: var(--Online);
+}
