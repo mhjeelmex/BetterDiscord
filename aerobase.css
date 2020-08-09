@@ -1681,11 +1681,12 @@ button[style="font-family: glue1-spoticon;"] {
 	position: relative;
 	display: flex;
 	content: "";
-	height: 4px;
-	border-radius: 0 0 .5em .5em;
+	height: 3.5px;
+	border-radius: 0 0 5px 5px;
 	-webkit-box-flex: 1;
 	-ms-flex: 1 1 auto;
 	flex: 1 1 auto;
+	top: -5px;
 }
 
 .winButtonClose-1HsbF- svg, .typeWindows-1za-n7>div:nth-child(4) svg, .typeWindows-1za-n7>div:nth-child(3) svg {
@@ -3401,9 +3402,18 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
 }
 
 .selected-aXhQR6.container-2Pjhx- .layout-2DM8Md {
-    position: relative;
+	position: relative;
 }
 
 .modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU {
-    background-color: transparent;
+	background-color: transparent;
+}
+
+.blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 {
+    width: 3.5px;
+    border-radius: 5px;
+}
+
+.interactive:hover {
+    background-color: var(--HoverMessage);
 }
