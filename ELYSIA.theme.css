@@ -53,6 +53,7 @@
 	--SendMessage: var(--darkgrey);
 	--HoverMessage: var(--darkgrey5);
 	--Highlighted: var(--grey5);
+	--ActiveBox: rgb(235, 235, 235);
 
 	/* CUSTOM TEXTS */
 	--JoinUs: "Hey! Wanna have some fun.. Join US !";
