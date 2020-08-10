@@ -1050,7 +1050,7 @@ rect[fill="rgba(240, 71, 71, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-st
 }
 
 .avatar-1BDn8e, .icon-27yU2q, .avatar-VxgULZ, .avatarHint-1qgaV3, .avatar-3elDyV, .avatarDefault-35WC3R, .avatarSpeaking-1wJCNq, .container-2td-dC *, .button-OhfaWu.wrapper-1BJsBx, .iconInactive-98JN5i, .avatarWrapperNormal-3wFMbf, .avatarUploaderInner-3UNxY3, .systemPad-3UxEGl>.listItem-2P_4kh:first-child .svg-1X37T1 {
-	border-radius: 5px !important;
+	border-radius: 8.5px !important;
 }
 
 #app-mount>svg>mask[id^="svg-mask-avatar-"]>circle[fill="white"] {
@@ -3410,10 +3410,18 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
 }
 
 .blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 {
-    width: 3.5px;
-    border-radius: 5px;
+	width: 3.5px;
+	border-radius: 5px;
 }
 
 .interactive:hover {
-    background-color: var(--HoverMessage);
+	background-color: var(--HoverMessage);
+}
+
+.hoverRoll-YK53gQ {
+	max-width: calc(100% - 75px);
+}
+
+.hoverRoll-YK53gQ .default-3sgIpy {
+	line-height: 1.15;
 }
