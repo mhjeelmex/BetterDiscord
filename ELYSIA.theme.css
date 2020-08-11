@@ -9,8 +9,8 @@
 * @authorLink https://github.com/GoldenLys
 */
 
-@import url("https://goldenlys.github.io/BetterDiscord-Elysia/aerobase.css"); /* DO NOT REMOVE THIS LINE */
-@import url("https://goldenlys.github.io/BetterDiscord-Elysia/RGB/2.css"); /* DO NOT REMOVE THIS LINE */
+@import url("https://goldenlys.github.io/BetterDiscord-Elysia/aerobase.css");/* DO NOT REMOVE THIS LINE */
+@import url("https://goldenlys.github.io/BetterDiscord-Elysia/RGB/2.css");/* DO NOT REMOVE THIS LINE */
 
 /*  PLUGINS (optional)  */
 @import url("https://fonts.googleapis.com/css?family=Quicksand&amp;display=swap");
@@ -29,12 +29,14 @@
 	--C2: rgb(0, 225, 255);
 	--time: 5s;
 	--ServerSize: 45px;
+	--ServerColumns: 1;
 
 	/*  STATUSES  */
 	--Online: rgb(0, 255, 136);
 	--Idle: rgb(0, 99, 156);
 	--Unavailable: rgb(228, 15, 0);
 	--Offline: rgb(90, 95, 100);
+	--StreamingColor: rgb(78, 0, 180);
 
 	/*  PROFILE HEADERS (you can also use "url(LINKtoIMAGE)" for the profile headers)  */
 	--Playing: url("https://goldenlys.github.io/ThemeGen/img/playing.jpg");
@@ -53,7 +55,7 @@
 	--SendMessage: var(--darkgrey);
 	--HoverMessage: var(--darkgrey5);
 	--Highlighted: var(--grey5);
-	--ActiveBox: rgb(235, 235, 235);
+	--ActiveBox: rgb(235 235 235);
 
 	/* CUSTOM TEXTS */
 	--JoinUs: "Hey! Wanna have some fun.. Join US !";
@@ -68,6 +70,7 @@
 	--EmojiHover: "😜";
 	--Channel: "💬";
 	--Voice: "🔊";
+	--Announcement: "📣";
 	--Community: "purpies";
 	--WelcomeMessage: "✨ Welcome to ELYSIA, designed by Purple Wizard.";
 	--Watermark: "Made with 💖 by Purple Wizard";
@@ -80,5 +83,3 @@
 	--TaggedName: 'YOU';
 	--ListenAlong: 'Listen Along';
 }
-
-/*END OF CONFIG*/
