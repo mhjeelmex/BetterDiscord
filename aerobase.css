@@ -1989,17 +1989,17 @@ polyline[stroke*="#7289da"] {
 	margin-right: 5px
 }
 
-.mainContent-ENyL1r:not([aria-label*="(text channel)"]):not([aria-label*="(announcement channel)"]):before {
+.mainContent-ENyL1r:not([aria-label*="(text channel)"]):not([aria-label*="(announcement channel)"]) .name-3_Dsmg:before {
 	content: var(--Voice);
 	margin-right: 5px
 }
 
-.mainContent-ENyL1r[aria-label*="(announcement channel)"]:before {
+.mainContent-ENyL1r .name-3_Dsmg[aria-label*="(announcement channel)"]:before {
 	content: var(--Announcement);
 	margin-right: 5px
 }
 
-.mainContent-ENyL1r[aria-label*="(text channel)"]:before {
+.mainContent-ENyL1r .name-3_Dsmg[aria-label*="(text channel)"]:before {
 	content: var(--Channel);
 	margin-right: 5px
 }
