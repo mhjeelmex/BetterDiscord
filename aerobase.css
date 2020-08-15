@@ -1994,12 +1994,12 @@ polyline[stroke*="#7289da"] {
 	margin-right: 5px
 }
 
-.mainContent-ENyL1r .name-3_Dsmg[aria-label*="(announcement channel)"]:before {
+.mainContent-ENyL1r[aria-label*="(announcement channel)"] .name-3_Dsmg:before {
 	content: var(--Announcement);
 	margin-right: 5px
 }
 
-.mainContent-ENyL1r .name-3_Dsmg[aria-label*="(text channel)"]:before {
+.mainContent-ENyL1r[aria-label*="(text channel)"] .name-3_Dsmg:before {
 	content: var(--Channel);
 	margin-right: 5px
 }
