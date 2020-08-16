@@ -26,6 +26,10 @@
 	height: calc(15px + 10px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns)) !important;
 }
 
+.platform-web #app-mount:before {
+	top: 0;
+}
+
 .guilds-1SWlCJ {
 	background: transparent !important;
 	padding-top: .25em;

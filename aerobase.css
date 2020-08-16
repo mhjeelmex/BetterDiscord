@@ -183,12 +183,14 @@ body, .preview-2nSL_2, #user-settings.layer-3QrUeG {
 	border-radius: .25em;
 }
 
-.platform-osx .layer-3QrUeG, .platform-win .layer-3QrUeG {
+.platform-osx .layer-3QrUeG, .platform-win .layer-3QrUeG, .platform-web .layer-3QrUeG{
 	top: 0px;
 	padding-top: 0px;
 }
 
-.platform-osx .bg-h5JY_x, .platform-osx .standardSidebarView-3F1I7i, .platform-win .bg-h5JY_x, .platform-win .standardSidebarView-3F1I7i {
+.platform-osx .bg-h5JY_x, .platform-osx .standardSidebarView-3F1I7i,
+.platform-win .bg-h5JY_x, .platform-win .standardSidebarView-3F1I7i,
+.platform-web .bg-h5JY_x, .platform-web .standardSidebarView-3F1I7i {
 	top: 0px;
 }
 
@@ -202,6 +204,14 @@ body, .preview-2nSL_2, #user-settings.layer-3QrUeG {
 	left: 0;
 	right: 0;
 	bottom: 0;
+}
+
+.platform-web .app-1q1i1E {
+	top: 0;
+}
+
+.platform-web .scroller-2TZvBN {
+	padding: 0;
 }
 
 .scroller-305q3I {
@@ -3434,4 +3444,8 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
 
 .sparkles-fvfHK0 {
 	z-index: 0;
+}
+
+.wrapper-1ucjTd {
+	height: 2rem;
 }
