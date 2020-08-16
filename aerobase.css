@@ -80,7 +80,7 @@
 	--scrollbar-thin-thumb: var(--C1);
 	--scrollbar-thin-track: transparent;
 	--scrollbar-auto-thumb: var(--C1);
-	--scrollbar-auto-track: var(--C1);
+	--scrollbar-auto-track: transparent;
 	--bd-blue: var(--C1);
 	--bd-blue-hover: var(--C1);
 	--bd-blue-active: var(--C1);
@@ -3448,4 +3448,29 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
 
 .wrapper-1ucjTd {
 	height: 2rem;
+}
+
+.jumpToPresentBar-G1R9s6 {
+    bottom: 0;
+    border-radius: 5px;
+    background-color: var(--darkgrey);
+    opacity: 1;
+    right: 5px;
+    left: 5px;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+}
+.newMessagesBar-265mhP {
+    border-radius: 5px;
+    background-color: var(--darkgrey);
+    opacity: 1;
+    right: 5px;
+    left: 5px;
+    padding-bottom: 0;
+    margin-top: 5px;
+}
+
+.platform-web .guilds-1SWlCJ>div>.listItem-2P_4kh:nth-last-child(2),
+.platform-web .guilds-1SWlCJ>div>.listItem-2P_4kh:nth-last-child(3) {
+	display: none;
 }
