@@ -1618,7 +1618,7 @@ button[style="font-family: glue1-spoticon;"] {
 	color: white;
 }
 
-.modeUnread-1zpFdA .name-3_Dsmg:before {
+.modeUnread-1zpFdA .name-3_Dsmg:after {
 	content: var(--Unread) !important;
 	font-size: 16px;
 	border-radius: .25em;
