@@ -519,7 +519,7 @@ body, .preview-2nSL_2, #user-settings.layer-3QrUeG {
 .member-3-YXUe.selected-aXhQR6 {
 	background-color: var(--grey) !important;
 	cursor: pointer;
-	margin-bottom: .25em;
+	margin-bottom: 1px;
 	-webkit-text-fill-color: initial !important
 }
 
@@ -1153,6 +1153,7 @@ svg.mask-1l8v16>mask>circle[fill="white"] {
 }
 
 .selected-aXhQR6.container-2Pjhx- {
+	position: relative;
 	color: white;
 	border-radius: 0;
 }
@@ -1306,12 +1307,13 @@ div[aria-label="USER_SETTINGS"] .userSettingsAccount-2eMFVR>div>.userInfoViewing
 }
 
 .container-2Pjhx- {
+	margin: 0 0 1px 0;
 	padding: 0;
-	border-radius: 0 5px 5px 0;
+	border-radius: 0;
 }
 
 .privateChannels-1nO12o .container-2Pjhx- {
-	border-radius: 0 5px 5px 0;
+	border-radius: 0 0;
 	margin-bottom: 1px;
 }
 
