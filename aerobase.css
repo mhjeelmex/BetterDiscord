@@ -147,7 +147,7 @@ body, .preview-2nSL_2, #user-settings.layer-3QrUeG {
 }
 
 .menu-3sdvDG,
-.modal-yWgWj-, .messagesPopoutWrap-1MQ1bW, .lookFilled-1Gx00P.colorPrimary-3b3xI6, .after_inlineCode-1KfVgj, .before_inlineCode-1G9rTK, .inlineCode-2ngu6Y, .wrapper-2aW0bm, .headerNormal-T_seeN, .uploadModal-2ifh8j {
+.modal-yWgWj-, .messagesPopoutWrap-1MQ1bW, .after_inlineCode-1KfVgj, .before_inlineCode-1G9rTK, .inlineCode-2ngu6Y, .wrapper-2aW0bm, .headerNormal-T_seeN, .uploadModal-2ifh8j {
 	background: var(--darkgrey) !important;
 	-webkit-box-shadow: none !important;
 	box-shadow: none !important;
@@ -1494,6 +1494,7 @@ button[style="font-family: glue1-spoticon;"] {
 .rolesList-22qj2L .roleName-32vpEy {
 	width: 100%;
 	max-width: 100%;
+	font-size: 14px;
 	text-align: center;
 }
 
@@ -3117,9 +3118,14 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
 .titleName-3-Lp3Z:after, .emptyChannelIcon-cc932w+.header-3uLluP:before {
 	margin-left: 65px;
 	content: var(--WelcomeMessage);
-	line-height: 26px;
-	font-size: 24px;
+    font-size: 1.35rem;
+    line-height: 1.35rem;
+    font-weight: 300;
 	display: block;
+}
+
+.titleName-3-Lp3Z:after {
+	margin-left: 0;
 }
 
 .note-QfFU8y textarea, .note-3HfJZ5 textarea, .userPopout-3XzG_A input {
@@ -3479,4 +3485,8 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
 
 .blobContainer-239gwq[aria-label*="ᴘᴜʀᴘʟᴇ Community"] svg img {
 	content: url("https://goldenlys.github.io/ThemeGen/img/PURPLE.gif");
+}
+
+.inner-3GZ54g {
+    max-width: 100%;
 }
