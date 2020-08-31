@@ -11,10 +11,6 @@
 	top: calc(57px + var(--ServerSize) * var(--ServerColumns));
 }
 
-.layerContainer-yqaFcK {
-	top: calc(15px + 10px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
-}
-
 .root-SR8cQa {
 	width: calc(100vw - 265px);
 	top: calc(48px + var(--ServerSize) * var(--ServerColumns))
