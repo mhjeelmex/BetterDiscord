@@ -871,7 +871,7 @@ body, .preview-2nSL_2, #user-settings.layer-3QrUeG {
 }
 
 div[style="background-color: rgb(240, 71, 71);"] {
-	background-color: var(--Unavailable);
+	background-color: var(--Unavailable) !important;
 }
 
 .scrollerWrap-2lJEkd .scroller-2FKFPG a[href="/channels/@me"]>div>.children-gzQq2t {
@@ -2258,6 +2258,8 @@ button[role*="switch"]:after {
 	background: var(--Online) !important;
 }
 
+
+.iconServer-3Z_nSE, .strikethrough-231d_b,
 .colorDanger-2qLCe1, .colorDanger-2qLCe1 .checkbox-3s5GYZ, .colorDanger-2qLCe1 .radioSelection-1HmrQS, .item-PXvHYJ[style*="color: rgb(240, 71, 71)"], .strikethrough-1n4ekb, .strikethrough-3Wiitd {
 	color: var(--Unavailable) !important;
 }
