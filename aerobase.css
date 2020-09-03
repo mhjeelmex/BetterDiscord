@@ -936,11 +936,11 @@ div[style="background-color: rgb(240, 71, 71);"] {
 	background-color: var(--Offline) !important;
 }
 
-rect[fill="rgba(67, 181, 129, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-online"], .header-QKLPzZ .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-online"], .header-2BwW8b .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-online"] {
+rect[fill="#43b581"], rect[fill="rgba(67, 181, 129, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-online"], .header-QKLPzZ .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-online"], .header-2BwW8b .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-online"] {
 	fill: var(--Online) !important;
 }
 
-rect[fill="rgba(250, 166, 26, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-idle"], .header-QKLPzZ .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-idle"], .header-2BwW8b .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-idle"] {
+rect[fill="#faa61a"], rect[fill="rgba(250, 166, 26, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-idle"], .header-QKLPzZ .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-idle"], .header-2BwW8b .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-idle"] {
 	fill: var(--Idle) !important;
 }
 
@@ -948,11 +948,11 @@ rect[fill="rgba(250, 166, 26, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-s
 	background-color: var(--Unavailable) !important;
 }
 
-rect[fill="rgba(240, 71, 71, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-dnd"], .header-QKLPzZ .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-dnd"], .header-2BwW8b .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-dnd"] {
+rect[fill="#f04745"], rect[fill="rgba(240, 71, 71, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-dnd"], .header-QKLPzZ .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-dnd"], .header-2BwW8b .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-dnd"] {
 	fill: var(--Unavailable) !important;
 }
 
-.privateChannels-1nO12o>div>div>span>a>div>.avatar-3uk_u9>div>svg>foreignObject, div[aria-label$=", Offline"]>svg>foreignObject, rect[fill="rgba(116, 127, 141, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-offline"], .header-QKLPzZ .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-offline"], .header-2BwW8b .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-offline"] {
+.privateChannels-1nO12o>div>div>span>a>div>.avatar-3uk_u9>div>svg>foreignObject, div[aria-label$=", Offline"]>svg>foreignObject, rect[fill="#747f8d"], rect[fill="rgba(116, 127, 141, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-offline"], .header-QKLPzZ .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-offline"], .header-2BwW8b .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-offline"] {
 	fill: var(--Offline) !important;
 }
 
