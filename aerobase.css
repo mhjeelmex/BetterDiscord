@@ -2476,10 +2476,6 @@ button[role*="switch"]:after {
 	content: var(--EmojiHover);
 }
 
-.mediaBarInteraction-37i2O4:hover .mediaBarGrabber-1FqnbN, .mediaBarGrabber-1FqnbN, .mediaBarProgress-1xaPtl, .mediaBarProgress-1xaPtl:after, .mediaBarProgress-1xaPtl:before {
-	background-color: var(--grey);
-}
-
 .tile-2gi3tr .avatarWrapper-29j3CC .avatar-VxgULZ, .tile-2gi3tr {
 	border-radius: .5em !important;
 }
@@ -2558,8 +2554,10 @@ polyline[stroke='#f04747'] {
 /* DOWNLOAD ICON */
 
 .audioMetadata-3zOuGv .metadataDownload-1fk90V, .downloadButton-23tKQp {
-	width: auto;
-	content: url("https://goldenlys.github.io/ThemeGen/img/download.png");
+    width: auto;
+    height: 25px;
+    margin: 5px 0 0 5px;
+    content: url("https://goldenlys.github.io/ThemeGen/img/download.png");
 }
 
 .attachmentInner-3vEpKt+a {
@@ -2607,8 +2605,10 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
 /* AUDIO ICON */
 
 .audioMetadata-3zOuGv:before {
-	width: 30px;
-	content: url("https://goldenlys.github.io/ThemeGen/img/music.png");
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    content: url("https://goldenlys.github.io/ThemeGen/img/music.png");
 }
 
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.audio-14DQXq {
