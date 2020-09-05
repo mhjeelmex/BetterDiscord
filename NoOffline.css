@@ -2,3 +2,7 @@
     fill: transparent!important;
     mask: none!important;
 }
+
+div[aria-label$=", Offline"]>svg>foreignObject+svg {
+    display: none;
+}
