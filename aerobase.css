@@ -3497,3 +3497,7 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
 .headerStreaming-2FjmGz *[mask="url(#svg-mask-status-streaming)"], .topSectionStreaming-1Tpf5X *[mask="url(#svg-mask-status-streaming)"] {
 	display: none;
 }
+
+.channelTextAreaDisabled-8rmlrp {
+    display: none
+}
