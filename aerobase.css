@@ -3489,3 +3489,11 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
 .inner-3GZ54g {
 	max-width: 100%;
 }
+
+.headerStreaming-2FjmGz *[mask="url(#svg-mask-avatar-status-round-80)"], .topSectionStreaming-1Tpf5X *[mask="url(#svg-mask-avatar-status-round-80)"] {
+	mask: none;
+}
+
+.headerStreaming-2FjmGz *[mask="url(#svg-mask-status-streaming)"], .topSectionStreaming-1Tpf5X *[mask="url(#svg-mask-status-streaming)"] {
+	display: none;
+}
