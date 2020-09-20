@@ -1445,7 +1445,7 @@ button[style="font-family: glue1-spoticon;"] {
 
 .bannerImage-1jOskm {
     width: -webkit-fill-available;
-    border-radius: 0 .25em .25em 0;
+    border-radius: 0 5px 5px 0;
 }
 
 .guildDetail-1nRKNE {
@@ -2831,7 +2831,7 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
     position: absolute;
     font-size: 16px;
     line-height: 90px;
-    border-radius: 0;
+    border-radius: 0 5px 5px 0;
     text-align: center;
     height: 135px;
     top: 0;
@@ -2880,7 +2880,7 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
     position: absolute;
     font-size: 16px;
     line-height: 90px;
-    border-radius: 0;
+    border-radius: 0 5px 5px 0;
     text-align: center;
     height: 135px;
     top: 0;
