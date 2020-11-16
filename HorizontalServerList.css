@@ -76,13 +76,15 @@
 	margin-left: 0 !important
 }
 
-.guilds-1SWlCJ .scroller-2TZvBN > div[aria-label]>.listItem-2P_4kh, .guilds-1SWlCJ .scroller-2TZvBN > div[aria-label]>.wrapper-21YSNc {
+.tutorialContainer-1v44GL,
+.guilds-1SWlCJ .scroller-2TZvBN > div[aria-label]+.tutorialContainer-SGrQ1h,
+.tutorialContainer-SGrQ1h+.listItem-2P_4kh,
+.guilds-1SWlCJ .scroller-2TZvBN > div[aria-label]>.listItem-2P_4kh,
+.guilds-1SWlCJ .scroller-2TZvBN > div[aria-label]>.wrapper-21YSNc{
 	margin: 10px 0 5px 5px !important;
 	max-height: var(--ServerSize);
-}
-
-.guilds-1SWlCJ .scroller-2TZvBN > div[aria-label]>.wrapper-21YSNc {
 	border-radius: .25em;
+    padding: 5px 0;
 }
 
 #app-mount .wrapper-21YSNc {
@@ -106,8 +108,6 @@
 /* PMs */
 
 .tutorialContainer-1v44GL {
-	margin: 10px 0 0px 5px !important;
-	max-height: var(--ServerSize);
 	order: 0;
 }
 
@@ -171,7 +171,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	height: calc(10px + 10px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
-	overflow-y: auto;
+	overflow: hidden auto;
 	order: 3;
 	width: 100%;
 	justify-content: center;
