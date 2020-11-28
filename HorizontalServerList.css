@@ -48,7 +48,8 @@
 }
 
 .expandedFolderBackground-2sPsd-.collapsed-1GMuSb {
-	border-radius: .25em !important;
+    border-radius: .25em !important;
+    height: var(--ServerSize);
 }
 
 .guilds-1SWlCJ .scroller-2TZvBN .listItem-2P_4kh div[class*='pill'], .tutorialContainer-SGrQ1h .pill-3YxEhL {
