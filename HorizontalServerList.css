@@ -85,7 +85,7 @@
 	margin: 10px 0 5px 5px !important;
 	max-height: var(--ServerSize);
 	border-radius: .25em;
-    padding: 5px 0;
+    padding: 0px;
 }
 
 #app-mount .wrapper-21YSNc {
@@ -214,4 +214,8 @@
 
 .tutorialContainer-SGrQ1h+.listItem-2P_4kh {
 	margin: 10px 5px 0 5px !important;
+}
+
+.guilds-1SWlCJ .scroller-2TZvBN > div[aria-label]>.wrapper-21YSNc ul>.listItem-2P_4kh svg {
+    transform: scale(0.85);
 }
