@@ -53,12 +53,12 @@
 }
 
 .guilds-1SWlCJ .scroller-2TZvBN .listItem-2P_4kh div[class*='pill'], .tutorialContainer-SGrQ1h .pill-3YxEhL {
-	height: 5px;
-	top: -7px;
-	left: 0px;
-	width: 100%;
-	transform: none;
-	border-radius: .5em;
+	height: 5px !important;
+    top: -7px;
+    left: 0px !important;
+    width: 100% !important;
+    transform: none;
+    border-radius: 5px;
 }
 
 .guilds-1SWlCJ .scroller-2TZvBN > div[aria-label]::-webkit-scrollbar-track {
