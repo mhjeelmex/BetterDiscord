@@ -2678,43 +2678,48 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
     height: 28px;
 }
 
-.allowSelected-25S_i5 {
-    border-color: var(--Online) !important;
-    background: var(--grey) !important;
-    border-radius: 5px !important;
+.allow-1PzSY3.selected-2YhbGh {
+    border: 1px solid var(--Online) !important;
+	background: var(--grey) !important;
 }
 
-.denySelected-1mh2mZ {
-    border-color: var(--Unavailable) !important;
-    background: var(--grey) !important;
-    border-radius: 5px !important;
+.deny-3nAuT6.selected-2YhbGh {
+	border: 1px solid var(--Unavailable) !important;
+	background: var(--grey) !important;
 }
 
-.passthroughSelected-1Eq0Kl {
+.passthrough-1c2ewQ.selected-2YhbGh {
     border: 1px solid white !important;
-    background: var(--grey) !important;
-    border-radius: 5px !important;
+	background: var(--grey) !important;
 }
 
-.allow-1PzSY3:after, .allowSelected-25S_i5:after {
+.allow-1PzSY3:after {
     color: var(--Online);
     content: "👍";
     line-height: 28px;
-    font-size: 20px;
+	font-size: 20px;
 }
 
-.deny-3nAuT6:after, .denySelected-1mh2mZ:after {
+.deny-3nAuT6:after {
     color: var(--Unavailable);
     content: "👎";
     line-height: 28px;
-    font-size: 20px;
+	font-size: 20px;
 }
 
 .passthrough-1c2ewQ:after {
     color: var(--Unavailable);
     content: "✊";
     line-height: 28px;
-    font-size: 20px;
+	font-size: 20px;
+}
+
+.allow-1PzSY3>svg, .passthrough-1c2ewQ>svg, .deny-3nAuT6>svg {
+	display: none
+}
+
+.allow-1PzSY3, .passthrough-1c2ewQ, .deny-3nAuT6 {
+	border-radius: 5px !important;
 }
 
 .rolesList-22qj2L .role-2irmRk:first-child {
@@ -3487,4 +3492,24 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
 
 .expandedFolderBackground-2sPsd- {
     left: 0;
+}
+
+div[style$="background-color: rgb(67, 181, 129);"] {
+    background-color: var(--Online) !important;
+}
+
+path[fill="rgba(67, 181, 129, 1)"] {
+    fill: var(--Online) !important;
+}
+
+div[style$="background-color: rgb(114, 118, 125);"] {
+	background-color: var(--Offline) !important;
+}
+
+path[fill="rgba(114, 118, 125, 1)"] {
+	fill: var(--Offline) !important;
+}
+
+.slider-TkfMQL>rect[fill="white"] {
+	fill: var(--grey) !important;
 }
