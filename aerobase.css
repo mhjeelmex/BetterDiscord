@@ -730,19 +730,6 @@ rect[fill="#f04747"],
     fill: var(--Unavailable) !important;
 }
 
-.typing-2GQL18 {
-    position: absolute;
-    top: -25px;
-    left: 1em;
-    right: 0;
-    font-size: 12.5px;
-    line-height: 15px;
-    text-align: center;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    user-select: none;
-}
-
 .hljs-addition, .hljs-keyword, .hljs-selector-tag {
     color: #03a0c3;
 }
@@ -3520,4 +3507,36 @@ path[fill="rgba(114, 118, 125, 1)"] {
 
 .container-3XJ8ns {
     border: none;
+}
+
+.typing-2GQL18 {
+    z-index: 100;
+    position: absolute;
+    top: -20px;
+    left: 5px;
+    right: 0;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.topic-TCb_qw.expandable-9fI_e3 {
+    text-align: center;
+}
+
+.contentWrapper-SvZHNd {
+	background-color: var(--darkgrey);
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.guildIcon-3h-1IH {
+	border-radius: 5px;
+}
+
+svg [mask="url(#svg-mask-squircle)"] {
+	mask: none!important;
 }
